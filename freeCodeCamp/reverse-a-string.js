@@ -13,4 +13,10 @@ function reverseString(str) {
   return str;
 }
 
+// 5/19/2018 Cleanup
+
+function reverseString(str) {
+ return str.split('').reverse().join('');
+}
+
 reverseString("hello");
