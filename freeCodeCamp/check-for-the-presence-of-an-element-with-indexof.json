@@ -1,0 +1,1 @@
+{"index.js":"function quickCheck(arr, elem) {\n  // change code below this line\n  return arr.indexOf(elem) > -1;\n  // change code above this line\n}\n\n// change code here to test different cases:\nconsole.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));"}
