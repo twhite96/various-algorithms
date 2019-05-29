@@ -1,0 +1,1 @@
+{"index.js":"function Dog() {\n  this.name = \"Doggo\";\n  this.color= \"Tawny\",\n  this.numLegs = 10\n}"}

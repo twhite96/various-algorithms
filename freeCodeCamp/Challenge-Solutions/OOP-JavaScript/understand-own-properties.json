@@ -1,0 +1,1 @@
+{"index.js":"function Bird(name) {\n  this.name = name;\n  this.numLegs = 2;\n}\n\nlet canary = new Bird(\"Tweety\");\nlet ownProps = [];\n// Add your code below this line\nfor (let prop in canary) {\n  if(canary.hasOwnProperty(prop)) {\n    ownProps.push(prop);\n  }\n}\n\n"}
