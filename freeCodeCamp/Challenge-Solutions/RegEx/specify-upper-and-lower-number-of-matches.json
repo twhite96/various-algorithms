@@ -1,0 +1,1 @@
+{"index.js":"let ohStr = \"Ohhh no\";\nlet ohRegex = /Oh{3,6}\\sno/; // Change this line\nlet result = ohRegex.test(ohStr);"}

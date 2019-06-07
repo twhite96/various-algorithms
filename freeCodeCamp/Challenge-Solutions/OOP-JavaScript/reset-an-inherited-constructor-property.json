@@ -1,0 +1,1 @@
+{"index.js":"function Animal() { }\nfunction Bird() { }\nfunction Dog() { }\n\nBird.prototype = Object.create(Animal.prototype);\nDog.prototype = Object.create(Animal.prototype);\n\n// Add your code below this line\nBird.prototype.constructor = Bird;\nDog.prototype.constructor = Dog;\n\nlet duck = new Bird();\nlet beagle = new Dog();"}

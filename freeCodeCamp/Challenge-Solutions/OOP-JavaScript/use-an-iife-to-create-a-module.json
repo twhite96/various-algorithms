@@ -1,0 +1,1 @@
+{"index.js":"let funModule = (function(){\n  return {\n     isCuteMixin: function(obj) {\n       obj.isCute = function() {\n         console.log(\"Feelin' cute, might code a SaaS later Idk.\");\n    };\n  },\n    singMixin: function(obj) {\n      obj.sing = function() {\n        console.log(\"Singing to an awesome tune\");\n      };\n    },\n  }\n})();\n\n"}

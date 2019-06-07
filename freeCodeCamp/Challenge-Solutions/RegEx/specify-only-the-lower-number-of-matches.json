@@ -1,0 +1,1 @@
+{"index.js":"let haStr = \"Hazzzzah\";\nlet haRegex = /Haz{4,30}ah/;  // Change this line\nlet result = haRegex.test(haStr);"}

@@ -1,0 +1,1 @@
+{"index.js":"function Animal() { }\n\nAnimal.prototype = {\n  constructor: Animal,\n  eat: function() {\n    console.log(\"nom nom nom\");\n  }\n};\n\nfunction Dog() { }\n\n// Add your code below this line\nDog.prototype = Object.create(Animal.prototype);\nlet beagle = new Dog();\nbeagle.eat(\"nom nom nom\");  // Should print \"nom nom nom\""}

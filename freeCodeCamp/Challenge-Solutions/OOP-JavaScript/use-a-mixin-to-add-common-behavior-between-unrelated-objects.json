@@ -1,0 +1,1 @@
+{"index.js":"let bird = {\n  name: \"Donald\",\n  numLegs: 2\n};\n\nlet boat = {\n  name: \"Warrior\",\n  type: \"race-boat\"\n};\n\n// Add your code below this line\nlet glideMixin = function(obj) {\n    obj.glide = function() {\n      console.log(\"Smoov\");\n    }\n}\nglideMixin(bird);\nglideMixin(boat);\n\nbird.glide();\nboat.glide();\n\n\n"}

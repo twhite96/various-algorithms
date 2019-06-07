@@ -1,0 +1,1 @@
+{"index.js":"function Bird() {\n  let weight = 15;\n  \n  this.getWeight = function() {\n    return weight;\n  }\n}\n"}

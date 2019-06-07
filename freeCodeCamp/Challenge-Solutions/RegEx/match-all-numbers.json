@@ -1,0 +1,1 @@
+{"index.js":"let numString = \"Your sandwich will be $5.00\";\nlet numRegex = /\\d/g; // Change this line\nlet result = numString.match(numRegex).length;"}
