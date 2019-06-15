@@ -1,0 +1,1 @@
+{"index.js":"// the global variable\nvar globalTitle = \"Winter Is Coming\";\n\n// Add your code below this line\nfunction urlSlug(title) {\n return title.toLowerCase().trim().split(/\\s+/).join('-');\n  \n}\n// Add your code above this line\n\nvar winterComing = urlSlug(globalTitle); // Should be \"winter-is-coming\""}

@@ -1,0 +1,1 @@
+{"index.js":"let timStr = \"Timmmmber\";\nlet timRegex = /Tim{4}ber/; // Change this line\nlet result = timRegex.test(timStr);"}

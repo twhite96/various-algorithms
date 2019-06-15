@@ -1,0 +1,1 @@
+{"index.js":"let huhText = \"This sandwich is good.\";\nlet fixRegex = /good/; // Change this line\nlet replaceText = \"okey-dokey\"; // Change this line\nlet result = huhText.replace(fixRegex, replaceText);"}

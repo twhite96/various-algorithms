@@ -1,0 +1,1 @@
+{"index.js":"// the global variable\nvar fixedValue = 4;\n\nfunction incrementer () {\n  // Add your code below this line\n  \n  return fixedValue + 1;\n  \n  // Add your code above this line\n}\n\nvar newValue = incrementer(); // Should equal 5\nconsole.log(fixedValue); // Should print 4"}

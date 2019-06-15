@@ -1,0 +1,1 @@
+{"index.js":"function nonMutatingSplice(cities) {\n  // Add your code below this line\n  var newArr = cities.slice(0,3)\n  return newArr;\n  \n  // Add your code above this line\n}\nvar inputCities = [\"Chicago\", \"Delhi\", \"Islamabad\", \"London\", \"Berlin\"];\nnonMutatingSplice(inputCities);"}

@@ -1,0 +1,1 @@
+{"index.js":"function alphabeticalOrder(arr) {\n  // Add your code below this line\n  \n  return arr.sort();\n  // Add your code above this line\n}\nalphabeticalOrder([\"a\", \"d\", \"c\", \"a\", \"z\", \"g\"]);"}

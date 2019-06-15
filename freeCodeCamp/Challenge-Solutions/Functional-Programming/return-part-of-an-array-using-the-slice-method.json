@@ -1,0 +1,1 @@
+{"index.js":"function sliceArray(anim, beginSlice, endSlice) {\n  // Add your code below this line\n  var newArr = anim.slice(beginSlice, endSlice);\n  return newArr;\n  // Add your code above this line\n}\nvar inputAnim = [\"Cat\", \"Dog\", \"Tiger\", \"Zebra\", \"Ant\"];\nsliceArray(inputAnim, 1, 3);"}
