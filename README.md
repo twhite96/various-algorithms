@@ -20,7 +20,7 @@ function centuryFromYear(year) {
   return Math.floor((year - 1) / 100) + 1;
 }
 ```
-Here, I am getting a random year using `Math.floor`, dividing by 100 to get the beginning of the century, and adding one to the year to get the start of the century.
+Here, I am getting a random year using `Math.floor` which chops off the end of a decimal value, then dividing by 100 to get the beginning of the century, and adding one to the year to get the start of the century.
 
 ## More Updates as I Get to The Problems
 
